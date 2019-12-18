@@ -1,25 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
+This is sample repository to export report with rake in rails. 🙌
 
-Things you may want to cover:
+## Version
+- **Ruby** 2.6.0
+- **Rails** 5.2.4
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# export_report_with_rake
+## Started
+- `$ bundle exec rails db:migrate`
+- `$ bundle exec rails server`
