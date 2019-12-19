@@ -5,12 +5,12 @@ default: &default
 
 development:
   <<: *default
-  database: export_report_with_rake_sample/dev
+  database: export_report_by_running_rake_sample/dev
 
 test:
   <<: *default
-  database: export_report_with_rake_sample/test
+  database: export_report_by_running_rake_sample/test
 
 production:
   <<: *default
-  database: export_report_with_rake_sample/prod
+  database: export_report_by_running_rake_sample/prod
