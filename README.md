@@ -1,11 +1,11 @@
-# **[ Sample ]** Export Report by Running Rake
+# [ Sample ] Export Report by Running Rake
 
 ## Description
 This is sample repository to export report by rake in rails. 🙌
 
 Using ruby gem [Devise](https://github.com/plataformatec/devise) to build Member feature and then adding USERs data to run rake.
 
-Final goal is getting export CSV File after running rake command line! 😎
+**Final goal** is getting export CSV File after running rake command line! 😎
 
 ## Version
 - **Ruby** 2.6.0
@@ -19,7 +19,7 @@ Final goal is getting export CSV File after running rake command line! 😎
 - `$ bundle exec rails db:create`
 - `$ bundle exec rails db:migrate`
 - **[ option ]** `$ bundle exec rails db:seed` would create at least 20 USERs in your database that you don' t need to create USERs by yourself.
-- `$ bundle exec rails server`
+- `$ bundle exec rails s`
 - Let' s sign up USERs which you need to run rake! 👭👫👬💻
 
 ## Modifying Registration DateTime
